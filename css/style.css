@@ -1,0 +1,535 @@
+/* Common CSS Start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+span{
+    display: inline-block;
+}
+.last_mar{
+    margin-right: 0 !important;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* Common CSS End */
+
+/* Nav Start */
+#nav{
+    background-color: #ffffff;
+    height: 90px;
+}
+.nav_logo{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.nav_logo img {
+	width: 182px;
+	padding: 12px 0;
+}
+.nav_menu{
+    width: 60%;
+    float: left;
+}
+.nav_menu ul{
+    text-align: end;
+}
+.nav_menu ul li{
+    display: inline-block;
+}
+.nav_menu ul li a{
+    padding: 11px 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 90px;
+    transition: all linear 0.5s;
+    border-radius: 8px;
+}
+.nav_menu ul li a:hover{
+    background-color: #3A4256;
+    color: #ffffff;
+}
+/* Nav End */
+
+/* Banner Start */
+#banner{
+    background-image: url(../img/landing-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.ban_text{
+    width: 50%;
+    float: left;
+    padding-top: 55px;
+}
+.ban_text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #3A4256;
+    width: 540px;
+}
+.ban_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3A4256;
+    width: 655px;
+}
+.ban_btn{
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ban_btn a{
+    padding: 15px;
+    background: linear-gradient(to left, #19D3AE 0%, #0FCFEC 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    transition: all linear 0.5s;
+}
+.ban_btn a:hover{
+    background: #3A4256;
+}
+
+.ban_img{
+    width: 50%;
+    float: left;
+}
+.ban_img img{
+    width: 594px;
+    height: 355px;
+    margin-left: 65px;
+}
+
+#ban_cont{
+    padding-top: 20px;
+}
+.cont_item{
+    padding: 52px 32px;
+    width: 32.4%;
+    float: left;
+    background: linear-gradient(to left, #19D3AE 0%, #0FCFEC 100%);
+    border-radius: 14px;
+    margin-right: 20px;
+    transition: all linear 0.5s;
+}
+.cont_icon{
+    width: 30%;
+    float: left;
+}
+.cont_icon i{
+    color: #ffffff;
+    font-size: 85px;
+}
+.cont_text{
+    width: 70%;
+    float: left;
+}
+.cont_text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.cont_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 15px;
+}
+.cont_item:hover{
+    background: #3A4256;
+}
+/* Banner End */
+
+
+/* Our Service Start */
+#service{
+    padding-top: 70px;
+    text-align: center;
+}
+.ser_head{
+    padding-bottom: 70px;
+}
+.ser_head h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19D3AE;
+}
+.ser_head h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #3A4256;
+}
+
+.ser_main{
+    display: flex;
+    justify-content: space-between;
+}
+.ser_item{
+    width: 32.4%;
+}
+.ser_cont{
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 56px 38px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.25);
+}
+.ser_cont h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3A4256;
+    padding-top: 32px;
+}
+.ser_cont p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3A4256;
+    padding-top: 8px;
+}
+.ser_cont:hover{
+    box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.19);
+}
+/* Our Service End */
+
+/* Terms Start */
+#terms{
+    padding: 100px 0px;
+}
+.terms_main{
+    display: flex;
+}
+.terms_img{
+    width: 49%;
+}
+.terms_img img{
+    margin-left: 120px;
+}
+.terms_text{
+    width: 49%;
+    padding: 100px 85px;
+}
+.terms_text h2{
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #3A4256;
+    padding-bottom: 26px;
+}
+.terms_text p{
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3A4256;
+}
+
+.terms_btn{
+    padding-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.terms_btn a{
+    padding: 15px;
+    background: linear-gradient(to left, #19D3AE 0%, #0FCFEC 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    transition: all linear 0.5s;
+}
+.terms_btn a:hover{
+    background: #3A4256;
+}
+/* Terms End */
+
+/* appointment Start */
+#appointment{
+    background: url(../img/bg-blue\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 0;
+}
+.appointment_main{
+    display: flex;
+}
+.appo_img{
+    width: 49%;
+}
+.appo_img img{
+    width: 500px;
+    margin: 0 100px;
+}
+.appo_text{
+    width: 49%;
+    padding: 105px 85px;
+}
+.appo_text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19D3AE;
+}
+.appo_text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 25px;
+}
+.appo_text p{
+    width: 540px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+.appo_btn{
+    padding-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.appo_btn a{
+    padding: 15px;
+    background: linear-gradient(to left, #19D3AE 0%, #0FCFEC 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    transition: all linear 0.5s;
+}
+.appo_btn a:hover{
+    background: #ffffff;
+    color: #19D3AE;
+}
+/* appointment end */
+
+
+/* Testimonial Start */
+#testimonial{
+    padding-bottom: 150px;
+}
+.test_head{
+    display: flex;
+    justify-content: space-between;
+}
+.head_left{
+    width: 50%;
+    padding: 40px 0;
+}
+.head_left h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19D3AE;
+}
+.head_left h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #3A4256;
+    padding-top: 10px;
+}
+
+.test_main{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.test_item{
+    width: 30%;
+    padding: 38px 28px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.25);
+    border-radius: 18px;
+}
+.test_item:hover{
+    box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.19);
+}
+.test_item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3A4256;
+}
+.test_img{
+    display: flex;
+    padding-top: 44px;
+}
+.timg{
+    position: relative;
+}
+.timg::after{
+    position: absolute;
+    content: "";
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid #19D3AE;
+    top: -9%;
+    left: -9%;
+}
+.ttext h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3A4256;
+    padding-left: 20px;
+}
+.ttext h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3A4256;
+    padding-left: 20px;
+}
+/* Testimonial End */
+
+
+/* Form Start */
+#form{
+    text-align: center;
+    padding: 65px 0;
+    background-image: url(../img/bg-blue\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_head h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19D3AE;
+}
+.form_head h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.form_main input{
+    width: 450px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.mes textarea{
+    width: 450px;
+    height: 135px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 20px 0 0 20px;
+}
+
+
+.form_btn{
+    padding-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.form_btn a{
+    padding: 15px 35px;
+    background: linear-gradient(to left, #19D3AE 0%, #0FCFEC 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    transition: all linear 0.5s;
+}
+.form_btn a:hover{
+    background: #ffffff;
+    color: #19D3AE;
+}
+/* Form End */
+
+
+/* Footer Start */
+#footer{
+    padding: 75px 0;
+    background-image: url(../img/footer-bg\ 1\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+.fot_item{
+    width: 25%;
+}
+.fot_item h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #939393;
+    padding-bottom: 20px;
+}
+.fot_item ul li{
+    padding: 7px 0;
+}
+.fot_item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #939393;
+}
+.fot_item ul li a:hover{
+    color: #19D3AE;
+}
+.footer_bottom{
+    text-align: center;
+    padding-top: 120px;
+}
+.footer_bottom p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000; 
+}
+.footer_bottom a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #19D3AE;
+}
+/* Footer End */
